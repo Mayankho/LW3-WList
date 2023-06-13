@@ -1,10 +1,10 @@
 "use client"
 import Head from "next/head";
-import styles from "/home/yankho/LearnWeb3/Whitelist/frontend/src/app/globals.css";
+import styles from "frontend/src/app/globals.css";
 import Web3Modal from "web3modal";
 import { providers, Contract } from "ethers";
 import { useEffect, useRef, useState } from "react";
-import { WHITELIST_CONTRACT_ADDRESS, abi } from "/home/yankho/LearnWeb3/Whitelist/frontend/constants/index.js";
+import { WHITELIST_CONTRACT_ADDRESS, abi } from "frontend/constants/index.js";
 
 export default function Home() {
   // walletConnected keep track of whether the user's wallet is connected or not
